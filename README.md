@@ -6,7 +6,7 @@ vectorDb : FAISS.from_documents(docs, embeddings)
 llm = Ollama(model="llama2")
 
 
-# to do
+#todo
 1)
 pip install pypdf
 python -m pip install langchain langchain-community langchain-openai faiss-cpu langchain-text-splitters
