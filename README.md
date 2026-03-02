@@ -10,7 +10,7 @@ llm = Ollama(model="llama2")
 1)
 pip install pypdf
 python -m pip install langchain langchain-community langchain-openai faiss-cpu langchain-text-splitters
-
+pip install sentence-transformers
 
 2)
 ollama download & install
